@@ -130,15 +130,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ui\Button\button.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="object\object.cpp" />
-    <ClCompile Include="window\window.cpp" />
-    <ClCompile Include="World\world.cpp" />
+    <ClCompile Include="core\object\object.cpp" />
+    <ClCompile Include="ui\sections\sections.cpp" />
+    <ClCompile Include="ui\window\window.cpp" />
+    <ClCompile Include="core\World\world.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="object\object.h" />
-    <ClInclude Include="window\window.h" />
-    <ClInclude Include="World\world.h" />
+    <ClInclude Include="ui\Button\button.h" />
+    <ClInclude Include="core\object\object.h" />
+    <ClInclude Include="ui\sections\sections.h" />
+    <ClInclude Include="ui\window\window.h" />
+    <ClInclude Include="core\World\world.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

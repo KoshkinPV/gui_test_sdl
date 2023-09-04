@@ -1,8 +1,10 @@
 #pragma once
 #include <SDL.h>
 #include <vector>
-#include "../World/world.h"
+#include "../../core/World/world.h"
 #include <iostream>
+#include "../sections/sections.h"
+#include "../Button/button.h"
 
 class window
 {
@@ -16,6 +18,11 @@ public:
 	void render();
 
 	void createWorld();
+	void createSection();
+	void createButton();
+	void createObject();
+
+	void buttonsPressed();
 
 private:
 	int width = 640;
@@ -24,7 +31,8 @@ private:
 	SDL_Window* mWindow;
 	SDL_Renderer* mRenderer;
 	SDL_DisplayMode mode;
-
+	sections section;
 	world World;
+	std::vector<button> buttons;
 };
 

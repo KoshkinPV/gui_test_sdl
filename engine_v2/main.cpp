@@ -1,5 +1,5 @@
 #include <SDL.h>
-#include "window/window.h"
+#include "ui/window/window.h"
 
 int main(int argc, char** args)
 {

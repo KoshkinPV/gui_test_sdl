@@ -21,24 +21,36 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="window\window.cpp">
+    <ClCompile Include="ui\window\window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="object\object.cpp">
+    <ClCompile Include="core\object\object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="World\world.cpp">
+    <ClCompile Include="core\World\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\sections\sections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Button\button.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="window\window.h">
+    <ClInclude Include="ui\window\window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="object\object.h">
+    <ClInclude Include="core\object\object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="World\world.h">
+    <ClInclude Include="core\World\world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\sections\sections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Button\button.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
